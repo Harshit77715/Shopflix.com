@@ -1,0 +1,28 @@
+@media  screen and (max-width:1000px) {
+    body{
+        background-color: cornsilk;
+    }
+    nav{
+        flex-direction: column;
+    }
+    .logo img{
+        width: 130px;
+        padding: 7px 0;
+    }
+    header{
+        height: 125px;
+    }
+    nav ul{
+        height: 38px;
+    }
+    .search input{
+        margin: 0 16px 0 22px;
+    }
+    .slider{
+        height: 23vh;
+    }
+    .cards{
+        overflow: scroll;
+    }
+
+}
